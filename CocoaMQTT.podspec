@@ -17,5 +17,5 @@ Pod::Spec.new do |s|
   
  s.source_files = "Source/*.swift"
   s.dependency "Starscream", "4.0.4"
-s.dependency "MqttCocoaAsyncSocket_IOS13"
+s.dependency "MqttCocoaAsyncSocket_IOS13", "14.0.0"
 end
