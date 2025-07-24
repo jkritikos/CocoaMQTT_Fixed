@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import MqttCocoaAsyncSocket
+import MqttCocoaAsyncSocket_IOS13
 
 /**
  * Connection State
