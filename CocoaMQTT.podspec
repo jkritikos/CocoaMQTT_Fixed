@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.default_subspec = 'Core'
   
   s.subspec 'Core' do |ss|
-    ss.dependency "MqttCocoaAsyncSocket", "~> 13.0.0"
+    ss.dependency "MqttCocoaAsyncSocket_IOS13"
     ss.source_files = "Source/*.swift"
     ss.exclude_files = "Source/CocoaMQTTWebSocket.swift"
   end
