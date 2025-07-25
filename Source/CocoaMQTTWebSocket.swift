@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import Starscream
+import Starscream_IOS13
 #if IS_SWIFT_PACKAGE
 import CocoaMQTT
 #endif
@@ -457,7 +457,7 @@ extension CocoaMQTTWebSocket.StarscreamConnection: CertificatePinning {
 }
 
 extension CocoaMQTTWebSocket.StarscreamConnection: WebSocketDelegate {
-    public func didReceive(event: Starscream.WebSocketEvent, client: Starscream.WebSocket) {
+    public func didReceive(event: Starscream_IOS13.WebSocketEvent, client: any Starscream_IOS13.WebSocketClient) {
         switch event {
         case .connected(_):
             delegate?.connectionOpened(self)
